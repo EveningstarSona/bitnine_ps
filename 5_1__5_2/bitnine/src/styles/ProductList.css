@@ -1,0 +1,27 @@
+#product-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+a {
+    margin-right: 2.4em;
+}
+
+.login-button {
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    padding: 0.5% 10px;
+    border: 2px solid black;
+}
+
+.profile-button {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+    padding: 0.5% 10px;
+    border: 2px solid black;
+}
