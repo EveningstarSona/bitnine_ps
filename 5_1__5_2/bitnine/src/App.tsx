@@ -1,24 +1,28 @@
+import { useState } from 'react';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 
-import Dashboard from './components/Dashboard/Dashboard';
 import Home from './components/Home/Home';
-import Header from './components/global/Header/Header';
-import Footer from './components/global/Footer';
 import Login from './components/Login/Login';
+import Register from './components/Register/Register';
+import NotImplemented from './components/NotImplemented';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Header />}>
-      <Route index element={<Home />} />
-      <Route path="login" element={<Login />} />
-      {/* <Route path="register" element={<Register />} /> */}
-      <Route path="dashboard" element={<Dashboard />}/>
-    </Route>
-  )
-)
+
 
 
 function App() {
+  const [_token, setToken] = useState<string>("");
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/">
+        <Route index element={<Home />} />
+        <Route path="login" element={<Login setToken={setToken}/>} />
+        <Route path="register" element={<Register />} />
+        <Route path="/:any" element={<NotImplemented />} />
+      </Route>
+    )
+  );
+
   return (
     <RouterProvider router={router}/>
   );

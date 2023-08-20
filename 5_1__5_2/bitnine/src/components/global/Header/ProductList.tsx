@@ -10,6 +10,7 @@ function ProductList() {
             <Link to="/mortgage">Mortgage</Link>
             <Link to="/loans">Loans</Link>
             <Link to="/investing">Investing</Link>
+            <Link to="/register" className="register-button">Register</Link>
             <Link to="/login" className="login-button">Login</Link>
             <Link to="/profile" className="profile-button" hidden>Profile</Link>
             <Outlet />

@@ -8,6 +8,15 @@
 
 a {
     margin-right: 2.4em;
+    font-size: 1.25em;
+}
+
+.register-button {
+    background-color: orangered;
+    color: white;
+    border-radius: 10%;
+    padding: 0.5% 10px;
+    border: 2px solid black;
 }
 
 .login-button {

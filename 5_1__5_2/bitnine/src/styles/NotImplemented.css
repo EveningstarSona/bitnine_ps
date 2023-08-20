@@ -1,0 +1,21 @@
+#notimplemented-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#notimplemented-container h1 {
+    color: white;
+}
+
+#notimplemented-container p {
+    color: lightgray;
+}
+
+#notimplemented-container > p > a {
+    color: lightgray;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}

@@ -6,6 +6,7 @@ function Logo() {
     return (
         <div className="logo-container">
             <img src={bitnineLogo}></img>
+            <p>{"bank"}</p>
         </div>
     );
 }

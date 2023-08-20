@@ -1,0 +1,35 @@
+#register-form, #login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form > input {
+    margin-bottom: 10px;
+    width: 25em;
+}
+
+#register-form > h1, #login-form > h1 {
+    color: white;
+}
+
+#congratulations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#congratulations h1 {
+    color: white !important;
+}
+
+#congratulations p {
+    color: lightgray;
+}
