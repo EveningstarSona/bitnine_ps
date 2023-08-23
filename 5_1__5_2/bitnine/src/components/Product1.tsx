@@ -1,5 +1,5 @@
 import '../styles/Product.css';
-import Feature from './global/Feature';
+import Feature from './Home/Feature';
 
 function Product1() {
     return (
