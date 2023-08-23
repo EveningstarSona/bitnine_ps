@@ -9,5 +9,5 @@ Regarding question 5:
 
 Regarding question 6:
     Firstly, you should open index.html.
-    It was integrated with all three algorithms so it can be easily tested.
-    If you want to see the algorithms themselves, please refer to their files: 6_1.js, 6_2.js and 6_3.js.
+    It was integrated with 6_3.js algorithm so it can be easily tested.
+    See the algorithms themselves by referring to their files: 6_1.js, 6_2.js and 6_3.js.
