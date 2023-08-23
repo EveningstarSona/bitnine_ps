@@ -1,0 +1,43 @@
+#product1-container {
+    background-color: aliceblue;
+}
+
+#product2-container {
+    background-color: blanchedalmond;
+}
+
+#product3-container {
+    background-color: cornsilk;
+}
+
+#product1-container, #product2-container, #product3-container {
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#product1-container h2, #product1-container p, #product2-container h2, #product2-container p, #product3-container h2, #product3-container p {
+    margin: 0;
+}
+
+#product1-container p, #product2-container p, #product3-container p {
+    color: rgb(70, 70, 70);
+    padding: 0 15%;
+}
+
+#product1-container h2, #product2-container h2, #product3-container h2 {
+    padding: 1% 0;
+}
+
+#product1-featurelist, #product2-featurelist, #product3-featurelist {
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.feature-container + .feature-container {
+    margin-left: 1.5%;
+}

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import Header from "../global/Header/Header"
+import Footer from "../global/Footer"
 
 function Login(props: {setToken: React.Dispatch<React.SetStateAction<string>>}) {
   const [email, setEmail] = useState<string>("")
@@ -54,6 +55,9 @@ function Login(props: {setToken: React.Dispatch<React.SetStateAction<string>>}) 
                 Login
             </button>
         </form>
+        </div>
+        <div className="footer" style={{'bottom': 0, "position": "absolute", "width": "100%"}}>
+          <Footer />
         </div>
     </div>
   )

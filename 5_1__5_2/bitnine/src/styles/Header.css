@@ -9,3 +9,7 @@
 a {
     color: white;
 }
+
+.register-button:hover, .login-button:hover, .profile-button:hover {
+    color: lightseagreen;
+}

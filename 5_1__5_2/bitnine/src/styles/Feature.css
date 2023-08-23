@@ -1,0 +1,35 @@
+.feature-container {
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 200px;
+    border: 1px solid black;
+    display: flex;
+}
+
+
+
+.feature-container .feature-front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.feature-container .feature-back {
+    display: none;
+}
+
+
+
+.feature-container:hover .feature-front {
+    display: none;
+}
+
+.feature-container:hover .feature-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+}

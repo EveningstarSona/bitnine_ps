@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "../global/Header/Header";
 
 import "../../styles/RegisterLogin.css";
+import Footer from "../global/Footer";
 
 function Register () {
   const [email, setEmail] = useState<string>("");
@@ -103,6 +104,9 @@ function Register () {
                     Submit
                 </button>
             </form>
+        </div>
+        <div className="footer" style={{'bottom': 0, "position": "absolute", "width": "100%"}}>
+          <Footer />
         </div>
     </div>
   );
